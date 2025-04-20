@@ -1,12 +1,43 @@
-# React + Vite
+# 🩺 Doctor Appointment Booking App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React-based application that allows users to browse doctors, filter by specialty and availability, and book appointments seamlessly. The app also provides a summary view of all booked appointments.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- **Doctor Directory View**: Browse a list of doctors with details like name, photo, specialty, availability, and location.
+- **Filter Functionality**: Filter doctors by specialty and availability.
+- **Booking Modal**: Book appointments by selecting available time slots.
+- **Appointments Summary View**: View all your booked appointments with relevant details.
+- **Responsive Design**: Optimized for mobile, tablet, and desktop views.
+- **Accessibility**: Keyboard navigable and compliant with accessibility standards.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, JavaScript, HTML, CSS
+- **Styling**: TailwindCSS
+- **State Management**: Context API
+- **Routing**: React Router DOM
+- **Utilities**: date-fns, clsx
+- **Icons**: Lucide React
+---
+
+## 🤖 AI Tools Utilized
+
+This project leveraged AI tools to enhance development efficiency:
+
+- **ChatGPT**: Assisted in scaffolding components, generating mock data, and generat readme file.
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/MustafaSaied97/Doctor-Appointment-Booking.git
+   cd doctor-appointment-booking
+   ```
